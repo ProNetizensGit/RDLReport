@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SnapStockReport" targetNamespace="http://tempuri.org/SnapStockReport.xsd" xmlns:mstns="http://tempuri.org/SnapStockReport.xsd" xmlns="http://tempuri.org/SnapStockReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="RDLCReportConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RDLCReportConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.RDLCReportConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SnapStockReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="SnapStockReport" msprop:Generator_DataSetName="SnapStockReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RDLCTemplateDB" msprop:Generator_RowEvHandlerName="RDLCTemplateDBRowChangeEventHandler" msprop:Generator_RowDeletedName="RDLCTemplateDBRowDeleted" msprop:Generator_RowDeletingName="RDLCTemplateDBRowDeleting" msprop:Generator_RowEvArgName="RDLCTemplateDBRowChangeEvent" msprop:Generator_TablePropName="RDLCTemplateDB" msprop:Generator_RowChangedName="RDLCTemplateDBRowChanged" msprop:Generator_RowChangingName="RDLCTemplateDBRowChanging" msprop:Generator_TableClassName="RDLCTemplateDBDataTable" msprop:Generator_RowClassName="RDLCTemplateDBRow" msprop:Generator_TableVarName="tableRDLCTemplateDB" msprop:Generator_UserTableName="RDLCTemplateDB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Site" msprop:Generator_ColumnPropNameInRow="Site" msprop:Generator_ColumnPropNameInTable="SiteColumn" msprop:Generator_ColumnVarNameInTable="columnSite" msprop:Generator_UserColumnName="Site" type="xs:string" minOccurs="0" />
+              <xs:element name="Slot" msprop:Generator_ColumnPropNameInRow="Slot" msprop:Generator_ColumnPropNameInTable="SlotColumn" msprop:Generator_ColumnVarNameInTable="columnSlot" msprop:Generator_UserColumnName="Slot" type="xs:string" minOccurs="0" />
+              <xs:element name="SKUId" msprop:Generator_ColumnPropNameInRow="SKUId" msprop:Generator_ColumnPropNameInTable="SKUIdColumn" msprop:Generator_ColumnVarNameInTable="columnSKUId" msprop:Generator_UserColumnName="SKUId" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_UserColumnName="Qty" type="xs:string" minOccurs="0" />
+              <xs:element name="DateExpiry" msprop:Generator_ColumnPropNameInRow="DateExpiry" msprop:Generator_ColumnPropNameInTable="DateExpiryColumn" msprop:Generator_ColumnVarNameInTable="columnDateExpiry" msprop:Generator_UserColumnName="DateExpiry" type="xs:string" minOccurs="0" />
+              <xs:element name="StU" msprop:Generator_ColumnPropNameInRow="StU" msprop:Generator_ColumnPropNameInTable="StUColumn" msprop:Generator_ColumnVarNameInTable="columnStU" msprop:Generator_UserColumnName="StU" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchID" msprop:Generator_ColumnPropNameInRow="BatchID" msprop:Generator_ColumnPropNameInTable="BatchIDColumn" msprop:Generator_ColumnVarNameInTable="columnBatchID" msprop:Generator_UserColumnName="BatchID" type="xs:string" minOccurs="0" />
+              <xs:element name="StockStatus" msprop:Generator_ColumnPropNameInRow="StockStatus" msprop:Generator_ColumnPropNameInTable="StockStatusColumn" msprop:Generator_ColumnVarNameInTable="columnStockStatus" msprop:Generator_UserColumnName="StockStatus" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
